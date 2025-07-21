@@ -1,0 +1,36 @@
+baseURL = "https://sahajayoga.at"
+
+# This is a "one page"-website, so we do not need these kinds of pages...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+defaultContentLanguage = "de"
+theme = "hugo-scroll"
+title = "Erkenne Dich Selbst"
+enableEmoji = true
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
+[params]
+    favicon = "images/favicon.png"
+    images = ["images/cover-image.jpg"]
+    title_guard = false
+    title = "Jane Doe - Nutrition Coach & Chef Consultant"
+    description = "Meditation, Austausch und Selbsterkenntnis"
+    language_menu = true
+    show_current_lang = true
+    hidedesignbyline = true
+    invertSectionColors = false
+    # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
+    image_options = "webp q90 lanczos photo"
+    combine_page_and_site_title = false
+    [params.footer]
+    showContactIcons = false
+    showFooterLinks = false
+    [params.meta]
+        keywords = "meditation, chakra, kundalini, yoga"
+
+[languages]
+  [languages.de]
+    weight = 10
+    languageName = "Deutsch"
+    contentDir = "content/de"
