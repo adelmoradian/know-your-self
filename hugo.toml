@@ -14,8 +14,8 @@ enableEmoji = true
     favicon = "images/favicon.png"
     images = ["images/cover-image.jpg"]
     title_guard = false
-    title = "Jane Doe - Nutrition Coach & Chef Consultant"
-    description = "Meditation, Austausch und Selbsterkenntnis"
+    title = "Meditation und Selbsterkenntnis"
+    description = "Meditation, Begegnung und Selbsterkenntnis Finde innere Ruhe inmitten des Alltags"
     language_menu = true
     show_current_lang = true
     hidedesignbyline = true
@@ -27,7 +27,7 @@ enableEmoji = true
     showContactIcons = false
     showFooterLinks = false
     [params.meta]
-        keywords = "meditation, chakra, kundalini, yoga"
+        keywords = "meditation, chakra, kundalini, yoga, self-relization , selbsterkenntnis, mindfullness, mindfulness, zen"
 
 [languages]
   [languages.de]

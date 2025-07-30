@@ -1,15 +1,15 @@
 :root {
   /* === Cover / Landing area === */
-  --cover-text-color: #10273a;
+  --cover-text-color: #FFFFFF;
   /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
-  --highlight: #FFFFFF;
+  --highlight: #10273a;
   --highlight-contrast: var(--cover-text-color);
   /*inverse colors used for :hover */
   --highlight-inverse: var(--cover-text-color);
-  --highlight-inverse-contrast: white;
+  --highlight-inverse-contrast: #10273a;
   /* visual guard around title and description, when the feature is enabled */
   --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.6);
-  --cover-title-text-shadow: white 0px 0px 7px;
+  --cover-title-text-shadow: #10273a 0px 0px 7px;
   /* === sticky top/left navigation menus === */
   --sticky-menu-text-color: #0277BD;
   /* === Alternating content (post) sections  === */
@@ -51,18 +51,21 @@ body {
   /* can't be used together with video */
   background: var(--section-light-bg-color) no-repeat center center; }
 
-#site-head, #site-head.withCenteredImage {
+#site-head,
+#site-head.withCenteredImage {
+  padding-top: 100px;
   position: relative;
   display: table;
   width: 100%;
   height: 100%;
   margin-bottom: 0rem;
-  text-align: center;
+  text-align: left;
   color: var(--cover-text-color);
   background-size: cover;
   /* Big cover video at the landing area */
   /** The arrow button to scroll to content */ }
-  #site-head video, #site-head.withCenteredImage video {
+  #site-head video,
+  #site-head.withCenteredImage video {
     bottom: 0;
     height: 100%;
     min-width: 100%;
@@ -73,28 +76,40 @@ body {
     top: 0;
     width: auto;
     z-index: -100; }
-  #site-head .title-and-description-guard, #site-head.withCenteredImage .title-and-description-guard {
+  #site-head .title-and-description-guard,
+  #site-head.withCenteredImage .title-and-description-guard {
     margin: auto;
     padding: 0.6em;
     background-color: var(--cover-title-and-description-guard-bg-color);
     border-radius: 25px;
     width: fit-content; }
-  #site-head .blog-title, #site-head.withCenteredImage .blog-title {
+  #site-head .blog-title,
+  #site-head.withCenteredImage .blog-title {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
     text-shadow: var(--cover-title-text-shadow); }
-  #site-head .blog-description, #site-head.withCenteredImage .blog-description {
+  #site-head .blog-description,
+  #site-head.withCenteredImage .blog-description {
     margin: 0;
     font-size: 2.5rem;
     line-height: 1.5em;
     font-weight: 400;
     font-family: "Roboto Slab", serif;
     letter-spacing: 0;
-    text-shadow: var(--cover-title-text-shadow); }
-  #site-head #site-languages, #site-head.withCenteredImage #site-languages {
+    text-shadow: var(--cover-title-text-shadow);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 70%; }
+  #site-head #site-languages,
+  #site-head.withCenteredImage #site-languages {
     text-align: right; }
-  #site-head #site-languages .btn-lang, #site-head.withCenteredImage #site-languages .btn-lang {
+  #site-head #site-languages .btn-lang,
+  #site-head.withCenteredImage #site-languages .btn-lang {
     text-decoration: none;
     background-color: var(--highlight);
     color: var(--highlight-contrast);
@@ -106,12 +121,18 @@ body {
     padding: 0.3rem 0.7rem;
     position: relative;
     text-transform: uppercase; }
-    #site-head #site-languages .btn-lang.active, #site-head #site-languages .btn-lang:hover, #site-head.withCenteredImage #site-languages .btn-lang.active, #site-head.withCenteredImage #site-languages .btn-lang:hover {
+    #site-head #site-languages .btn-lang.active, #site-head #site-languages .btn-lang:hover,
+    #site-head.withCenteredImage #site-languages .btn-lang.active,
+    #site-head.withCenteredImage #site-languages .btn-lang:hover {
       color: var(--highlight-inverse-contrast);
       background-color: var(--highlight-inverse); }
-  #site-head a.btn, #site-head #site-languages .btn-lang, #site-head.withCenteredImage a.btn, #site-head.withCenteredImage #site-languages .btn-lang {
+  #site-head a.btn,
+  #site-head #site-languages .btn-lang,
+  #site-head.withCenteredImage a.btn,
+  #site-head.withCenteredImage #site-languages .btn-lang {
     font-family: "Oswald", sans-serif; }
-  #site-head a.btn, #site-head.withCenteredImage a.btn {
+  #site-head a.btn,
+  #site-head.withCenteredImage a.btn {
     text-decoration: none;
     background-color: var(--highlight);
     color: var(--highlight-contrast);
@@ -128,13 +149,15 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: lighter; }
-    #site-head a.btn:hover, #site-head.withCenteredImage a.btn:hover {
+    #site-head a.btn:hover,
+    #site-head.withCenteredImage a.btn:hover {
       color: var(--highlight-inverse-contrast);
       background-color: var(--highlight-inverse); }
-  #site-head #header-arrow, #site-head.withCenteredImage #header-arrow {
+  #site-head #header-arrow,
+  #site-head.withCenteredImage #header-arrow {
     font-size: 140px;
     margin: -10px auto;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     width: 100%;
     left: 0;
@@ -144,7 +167,8 @@ body {
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s; }
-    #site-head #header-arrow:hover, #site-head.withCenteredImage #header-arrow:hover {
+    #site-head #header-arrow:hover,
+    #site-head.withCenteredImage #header-arrow:hover {
       color: inherit;
       opacity: 0.9; }
 
@@ -306,14 +330,22 @@ body {
   text-shadow: none; }
 
 /** =========== Headings =========== */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 10px;
   font-family: "Open Sans", sans-serif; }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   text-rendering: optimizeLegibility;
   line-height: 120%;
   margin-top: 0;
@@ -375,9 +407,13 @@ dl {
     margin-left: 200px;
     margin-bottom: 1em; }
 
-ul, ol {
+ul,
+ol {
   margin: 1em 0; }
-  ul ol, ul ul, ol ol, ol ul {
+  ul ol,
+  ul ul,
+  ol ol,
+  ol ul {
     margin: 0.4em 0; }
 
 li {
@@ -422,7 +458,8 @@ mark {
   background-color: var(--sticky-menu-text-color);
   filter: brightness(125%); }
 
-code, tt {
+code,
+tt {
   color: var(--section-light-text-color);
   background-color: var(--section-uni-code-bg-color);
   border-radius: 3px;
@@ -452,7 +489,8 @@ pre {
   white-space: pre;
   overflow-x: scroll;
   width: 100%; }
-  pre code, pre tt {
+  pre code,
+  pre tt {
     color: inherit;
     background: transparent;
     font-size: inherit;
