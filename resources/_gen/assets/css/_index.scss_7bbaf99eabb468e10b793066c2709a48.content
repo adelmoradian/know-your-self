@@ -87,6 +87,7 @@ body {
   #site-head.withCenteredImage .blog-title {
     margin: 10px 0 10px 0;
     font-size: 5rem;
+    font-family: Futura;
     letter-spacing: -1px;
     text-shadow: var(--cover-title-text-shadow); }
   #site-head .blog-description,
@@ -95,7 +96,7 @@ body {
     font-size: 2.5rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Roboto Slab", serif;
+    font-family: Din;
     letter-spacing: 0;
     text-shadow: var(--cover-title-text-shadow);
     word-wrap: break-word;
@@ -130,7 +131,7 @@ body {
   #site-head #site-languages .btn-lang,
   #site-head.withCenteredImage a.btn,
   #site-head.withCenteredImage #site-languages .btn-lang {
-    font-family: "Oswald", sans-serif; }
+    font-family: Futura; }
   #site-head a.btn,
   #site-head.withCenteredImage a.btn {
     text-decoration: none;
@@ -155,9 +156,11 @@ body {
       background-color: var(--highlight-inverse); }
   #site-head #header-arrow,
   #site-head.withCenteredImage #header-arrow {
-    font-size: 140px;
+    font-size: 30px;
     margin: -10px auto;
-    text-align: left;
+    text-align: right;
+    text-align: justify;
+    text-justify: inter-word;
     display: inline-block;
     width: 100%;
     left: 0;
@@ -200,7 +203,9 @@ a.fn-item {
 
 /* ========= Content ==========*/
 .post-title {
-  margin: 0; }
+  margin: 0;
+  font-family: Futura;
+  text-align: center; }
   .post-title a {
     text-decoration: none; }
 
@@ -246,7 +251,9 @@ a.fn-item {
   padding-top: 4rem;
   height: 70%;
   word-break: break-word;
-  hyphens: auto; }
+  hyphens: auto;
+  font-family: Bodoni;
+  text-align: center; }
 
 /* ======= Single pages =========== */
 .page-template {
@@ -273,6 +280,7 @@ a.fn-item {
   background: var(--footer-color-background);
   color: var(--footer-color);
   font-family: "Open Sans", sans-serif;
+  text-align: center;
   font-size: 1.3rem;
   position: relative;
   margin: 0rem 0 0 0;

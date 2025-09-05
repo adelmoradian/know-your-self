@@ -18,3 +18,7 @@ Eintritt: kostenfrei – keine Anmeldung nötig.
 Wir freuen uns auf dich!
 </p>
 </div>
+
+<div>
+ <img src="/images/mother.png" alt="Erkene dein selbst"> 
+</div>
