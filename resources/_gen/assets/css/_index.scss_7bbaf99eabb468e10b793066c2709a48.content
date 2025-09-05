@@ -105,7 +105,7 @@ body {
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-    max-width: 80%; }
+    max-width: 100%; }
   #site-head #site-languages,
   #site-head.withCenteredImage #site-languages {
     text-align: right; }
