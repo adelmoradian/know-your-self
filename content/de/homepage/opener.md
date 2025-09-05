@@ -1,6 +1,6 @@
 ---
 title: "Meditation, Austausch und Selbsterkenntnis"
-header_menu_title: "ERKENE DICH SELBST"
+header_menu_title: "ERKENE DEIN SELBST"
 navigation_menu_title: "Über die Veranstaltung"
 header_menu: true
 weight: 1
