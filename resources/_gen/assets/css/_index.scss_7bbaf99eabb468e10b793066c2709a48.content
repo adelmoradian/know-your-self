@@ -140,11 +140,11 @@ body {
     border-radius: 6px;
     -webkit-border-radius: 6px;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 15px;
     letter-spacing: 1px;
     margin: 0;
     overflow: visible;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 10px 5px 10px;
     position: relative;
     margin-top: 2rem;
     cursor: pointer;
