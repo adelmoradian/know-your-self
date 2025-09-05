@@ -105,7 +105,7 @@ body {
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-    max-width: 70%; }
+    max-width: 80%; }
   #site-head #site-languages,
   #site-head.withCenteredImage #site-languages {
     text-align: right; }
@@ -140,7 +140,7 @@ body {
     border-radius: 6px;
     -webkit-border-radius: 6px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2rem;
     letter-spacing: 1px;
     margin: 0;
     overflow: visible;
