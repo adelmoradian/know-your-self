@@ -1,36 +1,39 @@
-baseURL = "https://sahajayoga.at"
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
 
-# This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
-defaultContentLanguage = "de"
-theme = "hugo-scroll"
-title = "Erkenne Dich Selbst"
-enableEmoji = true
+title = "Erkenne Dein Selbst"
 
-[markup.goldmark.renderer]
-  unsafe = true # Allow HTML in md files
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
 
-[params]
-    favicon = "images/favicon.png"
-    images = ["images/cover-image.jpg"]
-    title_guard = false
-    title = "Meditation und Selbsterkenntnis"
-    description = "Meditation, Begegnung und Selbsterkenntnis Finde innere Ruhe inmitten des Alltags"
-    language_menu = true
-    show_current_lang = true
-    hidedesignbyline = true
-    invertSectionColors = false
-    # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
-    image_options = "webp q90 lanczos photo"
-    combine_page_and_site_title = false
-    [params.footer]
-    showContactIcons = false
-    showFooterLinks = false
-    [params.meta]
-        keywords = "meditation, chakra, kundalini, yoga, self-relization , selbsterkenntnis, mindfullness, mindfulness, zen"
+relativeURLs = "true"
+#canonifyURLs = "true"
 
-[languages]
-  [languages.de]
-    weight = 10
-    languageName = "Deutsch"
-    contentDir = "content/de"
+# Local
+baseURL = "/"
+publishDir = "public"
+
+# Remote
+#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
+#publishDir = "//centos/sites/hugodev/hugostory/"
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "section"]
+# googleAnalytics = "G-XXXXXXXXXX"
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  description = "Meditation, Begegnung und Selbsterkenntnis Finde innere Ruhe inmitten des Alltags"
+  favicon = false
+
+[Params.asset]
+  fontawesome_css = ["css/fontawesome-all.min.css"]
+  fontawesome_js = ["js/fontawesome-all.min.js"]
