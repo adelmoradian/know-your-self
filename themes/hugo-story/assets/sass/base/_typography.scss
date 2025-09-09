@@ -79,6 +79,8 @@
 	h1 {
 		font-size: 3.5rem;
 		line-height: 1.2;
+        font-weight: 500;
+        color: #36624c;
 	}
 
 	h2 {
@@ -178,6 +180,7 @@
 
 		h1 {
 			font-size: 2.5rem;
+        color: #36624c;
 		}
 
 		h2 {
@@ -186,6 +189,7 @@
 
 		h3 {
 			font-size: 1.25rem;
+            font-weight: 700;
 		}
 
 		h4 {
@@ -217,7 +221,8 @@
 		}
 
 		h1, h2, h3, h4, h5, h6 {
-			color: _palette($p, fg-bold);
+        color: #36624c;
+    font-weight: 500;
 		}
 
 		blockquote {
