@@ -242,6 +242,9 @@
 			@include vendor('align-self', 'center');
 			@include vendor('flex-grow', '1');
 			@include vendor('flex-shrink', '1');
+       		@include breakpoint('<=small') {
+              margin-top: -130px;
+       		}
 			width: 40%;
             padding: 2rem;
 			max-width: (_size(inner) * 0.75);
@@ -257,6 +260,10 @@
 			img {
 				@include vendor('object-fit', 'cover');
 				@include vendor('object-position', 'center');
+         		@include breakpoint('<=small') {
+                  margin-top: -79px;
+         		}
+
 				display: block;
 				position: absolute;
 				top: 0;
@@ -934,7 +941,6 @@
 	@mixin color-banner($p: null) {
 		.banner {
 			.image {
-				background-color: transparentize(_palette($p, fg-bold), 0.875);
 			}
 
 			@if ($p != 'invert') {
