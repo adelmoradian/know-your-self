@@ -239,11 +239,11 @@
 		overflow-x: hidden;
 
 		.content {
-			@include padding(_size(padding, default), _size(padding, default));
 			@include vendor('align-self', 'center');
 			@include vendor('flex-grow', '1');
 			@include vendor('flex-shrink', '1');
-			width: 50%;
+			width: 40%;
+            padding: 2rem;
 			max-width: (_size(inner) * 0.75);
 			margin: 0 auto;
 		}
@@ -252,7 +252,7 @@
 			@include vendor('flex-grow', '0');
 			@include vendor('flex-shrink', '0');
 			border-radius: 0;
-			width: 50%;
+			width: 60%;
 
 			img {
 				@include vendor('object-fit', 'cover');
