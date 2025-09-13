@@ -99,6 +99,8 @@
 			&.primary {
 				background-color: #36624c;
 				box-shadow: none;
+                letter-spacing: 0.2em;
+                font-size: 16px;
 				color: _palette($p, bg) !important;
 
 				&:hover {

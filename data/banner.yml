@@ -6,12 +6,12 @@ subtitle: |
   <div style="height:5px;font-size:1px">&nbsp;</div>
   <b style="font-weight:600;font-size:1.7em;line-height:0.9em;">25. Oktober - 18:00 Uhr<br>
   Urania Sternwarte - Uraniastraße 1, 1010 Wien</b><br>
-  <div style="height:10px;font-size:1px">&nbsp;</div>
-  kostenfrei – keine Anmeldung nötig. Wir freuen uns auf dich!
+  kostenfrei – keine Anmeldung nötig.
+  <div style="height:15px;font-size:1px">&nbsp;</div>
 
 content : |
   <div>
-  <h3 style="color:#36624c;font-weight:500;font-family:Georgia;line-height:1.2em;">Wir finden innere Ruhe<br>inmitten des Alltags…</h3>
+  <h3 style="color:#36624c;font-weight:500;font-family:Georgia;line-height:1.2em;line-height:1em;">Wir finden innere Ruhe<br>inmitten des Alltags…</h3>
   In einer Welt, die immer hektischer und lauter wird, möchten wir einen Ort der Ruhe und des inneren Friedens für dich schaffen.<br>
   <div style="height:24px;font-size:1px">&nbsp;</div>
   Am 25. Oktober laden wir dich herzlich zu einer besonderen Veranstaltung in die Urania Wien ein.
@@ -19,16 +19,17 @@ content : |
   <div style="height:20px;font-size:1px">&nbsp;</div>
   Unsere Vision ist eine Welt, in der jeder Mensch die Möglichkeit bekommt, innere Stille und spirituelle Tiefe zu entdecken und die Verbindung mit sich selbst zu erfahren.
   Diese Form der Meditation ist ein spontaner, natürlicher Prozess, der direkt am zentralen Nervensystem spürbar wird. Ganz ohne Vorkenntnisse oder Vorbereitung kannst du hier unverbindlich und kostenfrei entdecken, wie Meditation dein Leben bereichern kann.
-  <div style="height:20px;font-size:1px">&nbsp;</div>
-  <h3 style="color:#36624c;font-weight:500;font-family:Georgia;">Was erwarten uns?</h3>
-  <ul>
-    <li>Eine einfache, effektive Meditationsmethode, die auch zu Hause anwendbar ist</li>
-    <li>Musik, die die Erfahrungen in der Meditation vertieft, inspiriert und das Herz berührt</li>
-    <li>Raum für Fragen, Gespräche und gezielte Unterstützung</li>
-    <li>Eine offene, entspannte Atmosphäre, in der du einfach du selbst sein kannst</li>
-  </ul>  
+  <div style="height:30px;font-size:1px">&nbsp;</div>
+  <h3 style="color:#36624c;font-weight:500;font-family:Georgia;line-height:1em;">Was erwarten uns?</h3>
+  Eine einfache, effektive Meditationsmethode, die auch zu Hause anwendbar ist.<br>
+  <div style="height:14px;font-size:1px">&nbsp;</div>
+  Musik, die die Erfahrungen in der Meditation vertieft, inspiriert und das Herz berührt.<br>
+  <div style="height:14px;font-size:1px">&nbsp;</div>
+  Raum für Fragen, Gespräche und gezielte Unterstützung.<br>
+  <div style="height:14px;font-size:1px">&nbsp;</div>
+  Eine offene, entspannte Atmosphäre, in der du einfach du selbst sein kannst.<br>
   </div>
-  Medieninhaber & Veranstalter: Verein Sahaja Yoga Austria, 1220 Wien
+  <div style="height:18px;font-size:1px">&nbsp;</div>
 
 button:
   label : "Über Sahaja Yoga"
