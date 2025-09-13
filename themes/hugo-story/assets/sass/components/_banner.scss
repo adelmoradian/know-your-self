@@ -243,7 +243,8 @@
 			@include vendor('flex-grow', '1');
 			@include vendor('flex-shrink', '1');
        		@include breakpoint('<=small') {
-              margin-top: -130px;
+              margin-top: -160px;
+               z-index: 2;
        		}
 			width: 40%;
             padding: 2rem;
@@ -258,6 +259,7 @@
 			width: 60%;
 
 			img {
+               z-index: 1;
 				@include vendor('object-fit', 'cover');
 				@include vendor('object-position', 'center');
          		@include breakpoint('<=small') {
