@@ -1,13 +1,12 @@
 ####################### Banner #########################
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "SAHAJA YOGA"
+title : "Sahaja Yoga Presentiert"
 subtitle: |
-  Das Vermächtnis von Shri Mataji Nirmala Devi, 1923-2011
-  <div style="height:5px;font-size:1px">&nbsp;</div>
-  <b style="font-weight:600;font-size:1.7em;line-height:0.9em;">25. Oktober - 18:00 Uhr<br>
+  <b style="font-weight:500;font-size:1.7em;line-height:1.0em;">25. Oktober - 18:00 Uhr<br>
   Urania Sternwarte - Uraniastraße 1, 1010 Wien</b><br>
+  <div style="height:1px;font-size:1px">&nbsp;</div>
   kostenfrei – keine Anmeldung nötig.
-  <div style="height:15px;font-size:1px">&nbsp;</div>
+  <div style="height:5px;font-size:1px">&nbsp;</div>
 
 content : |
   <div>
@@ -30,6 +29,9 @@ content : |
   Eine offene, entspannte Atmosphäre, in der du einfach du selbst sein kannst.<br>
   </div>
   <div style="height:18px;font-size:1px">&nbsp;</div>
+  Follow-up Termin:<br>08.11.2025 um 18:00, Urania Sternwarte
+  <div style="height:18px;font-size:1px">&nbsp;</div>
+  
 
 button:
   label : "Über Sahaja Yoga"

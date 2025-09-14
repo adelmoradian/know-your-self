@@ -1,7 +1,9 @@
 <!-- Banner -->
 <section class="banner {{ .style }}">
     <div class="content">
-        {{ with .title }}<h1 style="font-weight:500;font-family:Georgia;letter-spacing:0.05em">{{ . }}</h1>{{ end }}
+        {{ with .title }}<h2 style="font-weight:200;font-family:Georgia;letter-spacing:0.05em;font-size:1.8em;line-height:0.2rem">Sahaja Yoga</h2>{{ end }}
+        {{ with .title }}<h3 style="font-weight:200;font-family:Georgia;letter-spacing:0.05em;">Presentiert:</h3>{{ end }}
+        {{ with .title }}<h1 style="font-weight:500;font-family:Georgia;letter-spacing:0.05em">ERKENE DEIN SELBST</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         {{ with .button }}<ul class="actions stacked">
