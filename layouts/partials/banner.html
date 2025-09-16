@@ -2,14 +2,17 @@
 <section class="banner {{ .style }}">
     <div class="content">
         {{ with .title }}<h2 style="font-weight:200;font-family:Georgia;letter-spacing:0.05em;font-size:1.8em;line-height:0.2rem">Sahaja Yoga</h2>{{ end }}
-        {{ with .title }}<h3 style="font-weight:200;font-family:Georgia;letter-spacing:0.05em;">Presentiert:</h3>{{ end }}
-        {{ with .title }}<h1 style="font-weight:500;font-family:Georgia;letter-spacing:0.05em">ERKENE DEIN SELBST</h1>{{ end }}
+        {{ with .title }}<h3 style="font-weight:200;font-family:Georgia;letter-spacing:0.05em;">Präsentiert:</h3>{{ end }}
+        {{ with .title }}<h1 style="font-weight:500;font-family:Georgia;letter-spacing:0.05em">ERKENNE DEIN SELBST</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         {{ with .button }}<ul class="actions stacked">
             <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a></li>
         </ul>{{ end }}
-        <p style="letter-spacing: 0.05em;">MEDIENINHABER & VERANSTALTER: VEREIN SAHAJA YOGA AUSTRIA, 1220 WIEN - VERLAGSORT: WIEN - DESIGN: DIMENSIONS.AT</p>
+        <p style="letter-spacing: 0.05em;">MEDIENINHABER & VERANSTALTER: VEREIN SAHAJA YOGA AUSTRIA, 1220 WIEN - VERLAGSORT: WIEN - DRUCK: PIXARTPRINTING, DESIGN: DIMENSIONS.AT</p>
+        <a href="https://shrimataji.org/">ShriMataji.org</a>
+        <a href="https://wemeditate.com/">wemeditate.com</a>
+        <a href="https://postgasse.at/">postgasse.at</a>
     </div>
     {{ with .image }}<div class="image">
         <img src="{{.}}" alt="Shri Mataji Nirmala Devi" />
