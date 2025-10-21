@@ -17,6 +17,10 @@ content : |
   <div style="height:20px;font-size:1px">&nbsp;</div>
   Unsere Vision ist eine Welt, in der jeder Mensch die Möglichkeit bekommt, innere Stille und spirituelle Tiefe zu entdecken und die Verbindung mit sich selbst zu erfahren.
   Diese Form der Meditation ist ein spontaner, natürlicher Prozess, der direkt am zentralen Nervensystem spürbar wird. Ganz ohne Vorkenntnisse oder Vorbereitung kannst du hier unverbindlich und kostenfrei entdecken, wie Meditation dein Leben bereichern kann.
+
+  <div style="height:10px;font-size:1px">&nbsp;</div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-2Gu5G1UAtc?si=6iugBsCp6EwPoOOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
   <div style="height:30px;font-size:1px">&nbsp;</div>
   <h3 style="color:#36624c;font-weight:500;font-family:Georgia;line-height:1em;">Was erwartet uns?</h3>
   Eine einfache, effektive Meditationsmethode, die auch zu Hause anwendbar ist.<br>
@@ -32,7 +36,6 @@ content : |
   08.11.2025 um 18:00, Urania Sternwarte<br>oder
   jeden Mittwoch um 19:00 (Deutsch) und Donnerstag um 18:30 (Englisch) in der Postgasse 13, 1010
   <div style="height:18px;font-size:1px">&nbsp;</div>
-  
 
 button:
   label : "Über Sahaja Yoga"
